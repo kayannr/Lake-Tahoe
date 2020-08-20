@@ -1,0 +1,938 @@
+/3.2
+(ODB.1
+	FirstRootClassName:	"Legend"
+	Roots:	2
+	Version:	32
+)
+
+(Legend.2
+	SymType:	0x02
+	LegType:	0x08
+	ClassType:	0x03
+	FieldNames:	3
+	Symbols:	4
+	Class:	114
+	Class:	115
+	Class:	116
+	Class:	117
+	Class:	118
+	Class:	119
+	Class:	120
+	Class:	121
+	Class:	122
+	Class:	123
+	Class:	124
+	Class:	125
+	Class:	126
+	Class:	127
+	Class:	128
+	Class:	129
+	Class:	130
+	Class:	131
+	Class:	132
+	Class:	133
+	Class:	134
+	Class:	135
+	Class:	136
+	Class:	137
+	Class:	138
+	Class:	139
+	StdDevs:	1.00000000000000
+	NullSym:	140
+	NullValues:	144
+	StatValues:	145
+	Precision:	-3
+)
+
+(AVStr.3
+	S:	"Entity_def"
+)
+
+(SymList.4
+	Child:	5
+	Child:	9
+	Child:	13
+	Child:	17
+	Child:	21
+	Child:	26
+	Child:	31
+	Child:	36
+	Child:	40
+	Child:	44
+	Child:	48
+	Child:	52
+	Child:	56
+	Child:	60
+	Child:	64
+	Child:	68
+	Child:	72
+	Child:	76
+	Child:	80
+	Child:	84
+	Child:	88
+	Child:	93
+	Child:	97
+	Child:	101
+	Child:	106
+	Child:	110
+)
+
+(BShSym.5
+	Color:	6
+	Outline:	1
+	OutlineColor:	7
+	OutlineWidth:	0.10000000000000
+	BgColor:	8
+)
+
+(TClr.6
+	Red:	0xc0ff
+	Green:	0x6538
+	Blue:	0x4920
+)
+
+(TClr.7
+)
+
+(TClr.8
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.9
+	Color:	10
+	Outline:	1
+	OutlineColor:	11
+	OutlineWidth:	0.10000000000000
+	BgColor:	12
+)
+
+(TClr.10
+	Red:	0xffff
+	Green:	0xd7d7
+)
+
+(TClr.11
+)
+
+(TClr.12
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.13
+	Color:	14
+	Outline:	1
+	OutlineColor:	15
+	OutlineWidth:	0.10000000000000
+	BgColor:	16
+)
+
+(TClr.14
+	Red:	0xbdbd
+	Green:	0xb7b7
+	Blue:	0x6b6b
+)
+
+(TClr.15
+)
+
+(TClr.16
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.17
+	Color:	18
+	Outline:	1
+	OutlineColor:	19
+	OutlineWidth:	0.10000000000000
+	BgColor:	20
+)
+
+(TClr.18
+)
+
+(TClr.19
+)
+
+(TClr.20
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.21
+	Color:	22
+	Outline:	1
+	OutlineColor:	23
+	OutlineWidth:	0.10000000000000
+	BgColor:	24
+	Style:	0x03
+	Stipple:	25
+)
+
+(TClr.22
+	Red:	0xefff
+	Green:	0x716f
+	Blue:	0x716f
+)
+
+(TClr.23
+)
+
+(TClr.24
+	Name:	"Transparent"
+)
+
+(Stipple.25
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.26
+	Color:	27
+	Outline:	1
+	OutlineColor:	28
+	OutlineWidth:	0.10000000000000
+	BgColor:	29
+	Style:	0x03
+	Stipple:	30
+)
+
+(TClr.27
+	Blue:	0xffff
+)
+
+(TClr.28
+	Blue:	0xffff
+)
+
+(TClr.29
+	Name:	"Transparent"
+)
+
+(Stipple.30
+	Columns:	8
+	Rows:	8
+	Bits:	11111111 11111111 
+)
+
+(BShSym.31
+	Color:	32
+	Outline:	1
+	OutlineColor:	33
+	OutlineWidth:	0.10000000000000
+	BgColor:	34
+	Style:	0x03
+	Stipple:	35
+)
+
+(TClr.32
+	Red:	0xff00
+	Green:	0xbf7b
+	Blue:	0xfe
+)
+
+(TClr.33
+	Red:	0xff00
+	Green:	0xbf7b
+	Blue:	0xfe
+)
+
+(TClr.34
+	Name:	"Transparent"
+)
+
+(Stipple.35
+	Columns:	8
+	Rows:	8
+	Bits:	44221188 44221188 
+)
+
+(BShSym.36
+	Color:	37
+	Outline:	1
+	OutlineColor:	38
+	OutlineWidth:	0.10000000000000
+	BgColor:	39
+)
+
+(TClr.37
+	Red:	0xa7b2
+	Green:	0xafff
+	Blue:	0x5e2f
+)
+
+(TClr.38
+)
+
+(TClr.39
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.40
+	Color:	41
+	Outline:	1
+	OutlineColor:	42
+	OutlineWidth:	0.10000000000000
+	BgColor:	43
+)
+
+(TClr.41
+	Red:	0xc0ff
+	Green:	0x90b1
+	Blue:	0x5834
+)
+
+(TClr.42
+)
+
+(TClr.43
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.44
+	Color:	45
+	Outline:	1
+	OutlineColor:	46
+	OutlineWidth:	0.10000000000000
+	BgColor:	47
+)
+
+(TClr.45
+	Red:	0x8b8b
+	Green:	0x4545
+	Blue:	0x1313
+)
+
+(TClr.46
+)
+
+(TClr.47
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.48
+	Color:	49
+	Outline:	1
+	OutlineColor:	50
+	OutlineWidth:	0.10000000000000
+	BgColor:	51
+)
+
+(TClr.49
+	Red:	0xacff
+	Green:	0x9619
+	Blue:	0xac
+)
+
+(TClr.50
+)
+
+(TClr.51
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.52
+	Color:	53
+	Outline:	1
+	OutlineColor:	54
+	OutlineWidth:	0.10000000000000
+	BgColor:	55
+)
+
+(TClr.53
+	Red:	0xa610
+	Green:	0xff00
+	Blue:	0xa559
+)
+
+(TClr.54
+	Name:	"Transparent"
+)
+
+(TClr.55
+	Red:	0xa610
+	Green:	0xff00
+	Blue:	0xa559
+)
+
+(BShSym.56
+	Color:	57
+	Outline:	1
+	OutlineColor:	58
+	OutlineWidth:	0.10000000000000
+	BgColor:	59
+)
+
+(TClr.57
+	Red:	0x8b8b
+	Green:	0x6969
+	Blue:	0x1414
+)
+
+(TClr.58
+)
+
+(TClr.59
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.60
+	Color:	61
+	Outline:	1
+	OutlineColor:	62
+	OutlineWidth:	0.10000000000000
+	BgColor:	63
+)
+
+(TClr.61
+	Red:	0x8b8b
+	Green:	0x8b8b
+)
+
+(TClr.62
+)
+
+(TClr.63
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.64
+	Color:	65
+	Outline:	1
+	OutlineColor:	66
+	OutlineWidth:	0.10000000000000
+	BgColor:	67
+)
+
+(TClr.65
+	Red:	0xff00
+	Green:	0xfb42
+	Blue:	0xc33b
+)
+
+(TClr.66
+)
+
+(TClr.67
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.68
+	Color:	69
+	Outline:	1
+	OutlineColor:	70
+	OutlineWidth:	0.10000000000000
+	BgColor:	71
+)
+
+(TClr.69
+	Red:	0xbdff
+	Green:	0xb04a
+	Blue:	0x56d5
+)
+
+(TClr.70
+)
+
+(TClr.71
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.72
+	Color:	73
+	Outline:	1
+	OutlineColor:	74
+	OutlineWidth:	0.10000000000000
+	BgColor:	75
+)
+
+(TClr.73
+	Red:	0xdc00
+	Green:	0xce49
+	Blue:	0xdb
+)
+
+(TClr.74
+)
+
+(TClr.75
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.76
+	Color:	77
+	Outline:	1
+	OutlineColor:	78
+	OutlineWidth:	0.10000000000000
+	BgColor:	79
+)
+
+(TClr.77
+	Red:	0x7878
+	Green:	0x7878
+	Blue:	0x7878
+)
+
+(TClr.78
+)
+
+(TClr.79
+)
+
+(BShSym.80
+	Color:	81
+	Outline:	1
+	OutlineColor:	82
+	OutlineWidth:	0.10000000000000
+	BgColor:	83
+)
+
+(TClr.81
+	Red:	0xffff
+	Green:	0xc7c7
+	Blue:	0xaeae
+)
+
+(TClr.82
+)
+
+(TClr.83
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.84
+	Color:	85
+	Outline:	1
+	OutlineColor:	86
+	OutlineWidth:	0.10000000000000
+	BgColor:	87
+)
+
+(TClr.85
+	Red:	0xa600
+	Green:	0xb600
+	Blue:	0x5500
+)
+
+(TClr.86
+)
+
+(TClr.87
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.88
+	Color:	89
+	Outline:	1
+	OutlineColor:	90
+	OutlineWidth:	0.10000000000000
+	BgColor:	91
+	Style:	0x03
+	Stipple:	92
+)
+
+(TClr.89
+	Red:	0xdb
+	Green:	0xd1c7
+	Blue:	0xdc00
+)
+
+(TClr.90
+	Red:	0xdb
+	Green:	0xd1c7
+	Blue:	0xdc00
+)
+
+(TClr.91
+	Name:	"Transparent"
+)
+
+(Stipple.92
+	Columns:	8
+	Rows:	8
+	Bits:	44221188 44221188 
+)
+
+(BShSym.93
+	Color:	94
+	Outline:	1
+	OutlineColor:	95
+	OutlineWidth:	0.10000000000000
+	BgColor:	96
+)
+
+(TClr.94
+	Red:	0xe500
+	Green:	0xa100
+)
+
+(TClr.95
+)
+
+(TClr.96
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.97
+	Color:	98
+	Outline:	1
+	OutlineColor:	99
+	OutlineWidth:	0.10000000000000
+	BgColor:	100
+)
+
+(TClr.98
+	Red:	0xf700
+	Green:	0xd300
+	Blue:	0xb300
+)
+
+(TClr.99
+)
+
+(TClr.100
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.101
+	Color:	102
+	Outline:	1
+	OutlineColor:	103
+	OutlineWidth:	0.10000000000000
+	BgColor:	104
+	Style:	0x03
+	Stipple:	105
+)
+
+(TClr.102
+	Red:	0xff00
+	Green:	0xa559
+	Blue:	0xa559
+)
+
+(TClr.103
+)
+
+(TClr.104
+	Name:	"Transparent"
+)
+
+(Stipple.105
+	Columns:	8
+	Rows:	8
+	Bits:	aa55aa55 aa55aa55 
+)
+
+(BShSym.106
+	Color:	107
+	Outline:	1
+	OutlineColor:	108
+	OutlineWidth:	0.10000000000000
+	BgColor:	109
+)
+
+(TClr.107
+	Red:	0xb100
+	Green:	0xba00
+	Blue:	0x8400
+)
+
+(TClr.108
+)
+
+(TClr.109
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(BShSym.110
+	Color:	111
+	Outline:	1
+	OutlineColor:	112
+	OutlineWidth:	0.10000000000000
+	BgColor:	113
+)
+
+(TClr.111
+	Name:	"Transparent"
+)
+
+(TClr.112
+	Name:	"Transparent"
+)
+
+(TClr.113
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(LClass.114
+	IsText:	1
+	Label:	"ATHLETIC FIELD"
+	MinStr:	"ATHLETIC FIELD"
+	MaxStr:	"ATHLETIC FIELD"
+	Precision:	-3
+)
+
+(LClass.115
+	IsText:	1
+	Label:	"BOAT RAMP"
+	MinStr:	"BOAT RAMP"
+	MaxStr:	"BOAT RAMP"
+	Precision:	-3
+)
+
+(LClass.116
+	IsText:	1
+	Label:	"BREAKWATER, JETTY, PIER, DOCK, WHARF"
+	MinStr:	"BREAKWATER, JETTY, PIER, DOCK, WHARF"
+	MaxStr:	"BREAKWATER, JETTY, PIER, DOCK, WHARF"
+	Precision:	-3
+)
+
+(LClass.117
+	IsText:	1
+	Label:	"BUILDING"
+	MinStr:	"BUILDING"
+	MaxStr:	"BUILDING"
+	Precision:	-3
+)
+
+(LClass.118
+	IsText:	1
+	Label:	"BUILT-UP AREA"
+	MinStr:	"BUILT-UP AREA"
+	MaxStr:	"BUILT-UP AREA"
+	Precision:	-3
+)
+
+(LClass.119
+	IsText:	1
+	Label:	"CABLE AREA"
+	MinStr:	"CABLE AREA"
+	MaxStr:	"CABLE AREA"
+	Precision:	-3
+)
+
+(LClass.120
+	IsText:	1
+	Label:	"CAMPGROUND"
+	MinStr:	"CAMPGROUND"
+	MaxStr:	"CAMPGROUND"
+	Precision:	-3
+)
+
+(LClass.121
+	IsText:	1
+	Label:	"CEMETERY"
+	MinStr:	"CEMETERY"
+	MaxStr:	"CEMETERY"
+	Precision:	-3
+)
+
+(LClass.122
+	IsText:	1
+	Label:	"CHURCH"
+	MinStr:	"CHURCH"
+	MaxStr:	"CHURCH"
+	Precision:	-3
+)
+
+(LClass.123
+	IsText:	1
+	Label:	"CORRAL"
+	MinStr:	"CORRAL"
+	MaxStr:	"CORRAL"
+	Precision:	-3
+)
+
+(LClass.124
+	IsText:	1
+	Label:	"COURTHOUSE"
+	MinStr:	"COURTHOUSE"
+	MaxStr:	"COURTHOUSE"
+	Precision:	-3
+)
+
+(LClass.125
+	IsText:	1
+	Label:	"GOLF COURSE"
+	MinStr:	"GOLF COURSE"
+	MaxStr:	"GOLF COURSE"
+	Precision:	-3
+)
+
+(LClass.126
+	IsText:	1
+	Label:	"HOSPITAL"
+	MinStr:	"HOSPITAL"
+	MaxStr:	"HOSPITAL"
+	Precision:	-3
+)
+
+(LClass.127
+	IsText:	1
+	Label:	"HOSPITAL COMPLEX"
+	MinStr:	"HOSPITAL COMPLEX"
+	MaxStr:	"HOSPITAL COMPLEX"
+	Precision:	-3
+)
+
+(LClass.128
+	IsText:	1
+	Label:	"MUNICIPAL BUILDING"
+	MinStr:	"MUNICIPAL BUILDING"
+	MaxStr:	"MUNICIPAL BUILDING"
+	Precision:	-3
+)
+
+(LClass.129
+	IsText:	1
+	Label:	"PICNIC AREA"
+	MinStr:	"PICNIC AREA"
+	MaxStr:	"PICNIC AREA"
+	Precision:	-3
+)
+
+(LClass.130
+	IsText:	1
+	Label:	"PIT, UNCONSOLIDATED MATERIAL"
+	MinStr:	"PIT, UNCONSOLIDATED MATERIAL"
+	MaxStr:	"PIT, UNCONSOLIDATED MATERIAL"
+	Precision:	-3
+)
+
+(LClass.131
+	IsText:	1
+	Label:	"SCHOOL"
+	MinStr:	"SCHOOL"
+	MaxStr:	"SCHOOL"
+	Precision:	-3
+)
+
+(LClass.132
+	IsText:	1
+	Label:	"SCHOOL CAMPUS"
+	MinStr:	"SCHOOL CAMPUS"
+	MaxStr:	"SCHOOL CAMPUS"
+	Precision:	-3
+)
+
+(LClass.133
+	IsText:	1
+	Label:	"SEWAGE DISPOSAL PLANT"
+	MinStr:	"SEWAGE DISPOSAL PLANT"
+	MaxStr:	"SEWAGE DISPOSAL PLANT"
+	Precision:	-3
+)
+
+(LClass.134
+	IsText:	1
+	Label:	"SKI AREA"
+	MinStr:	"SKI AREA"
+	MaxStr:	"SKI AREA"
+	Precision:	-3
+)
+
+(LClass.135
+	IsText:	1
+	Label:	"SWIMMING POOL"
+	MinStr:	"SWIMMING POOL"
+	MaxStr:	"SWIMMING POOL"
+	Precision:	-3
+)
+
+(LClass.136
+	IsText:	1
+	Label:	"TANK"
+	MinStr:	"TANK"
+	MaxStr:	"TANK"
+	Precision:	-3
+)
+
+(LClass.137
+	IsText:	1
+	Label:	"TOWN, SETTLEMENT, LOCALITY"
+	MinStr:	"TOWN, SETTLEMENT, LOCALITY"
+	MaxStr:	"TOWN, SETTLEMENT, LOCALITY"
+	Precision:	-3
+)
+
+(LClass.138
+	IsText:	1
+	Label:	"TRAILER PARK"
+	MinStr:	"TRAILER PARK"
+	MaxStr:	"TRAILER PARK"
+	Precision:	-3
+)
+
+(LClass.139
+	IsNoData:	1
+	IsText:	1
+	Label:	"No Data"
+	Precision:	-3
+)
+
+(BShSym.140
+	Color:	141
+	Outline:	1
+	OutlineColor:	142
+	OutlineWidth:	0.10000000000000
+	BgColor:	143
+)
+
+(TClr.141
+	Name:	"Transparent"
+)
+
+(TClr.142
+	Name:	"Transparent"
+)
+
+(TClr.143
+	Red:	0xffff
+	Green:	0xffff
+	Blue:	0xffff
+)
+
+(NameDict.144
+)
+
+(NameDict.145
+)
+

@@ -1,0 +1,256 @@
+Cartographic Boundary File General Metadata in FGDC Format
+
+
+
+Metadata Section Index
+
+
+Identification
+Data Quality
+Spatial Data Organization
+Spatial Reference
+Entity and Attribute
+Distribution
+Metadata Reference
+
+
+Identification Information
+
+
+     Citation: 
+
+          Citation Information: 
+
+               Originator: U.S. Department of Commerce, Bureau of the Census, Geography Division
+               Publication Date: 19990119
+               Title: Boundary File Web Site Metadata
+               Publication Information: 
+
+                    Publication Place: Washington, D.C.
+                    Publisher: U.S. Department of Commerce, Bureau of the Census, Geography Division
+
+               Online Linkage: http://www.census.gov/geo/www/cob/index.html
+
+     Description: 
+
+          Abstract: These cartographic boundary files files were designed and created to support the Landview (TM) small-scale thematic
+          mapping functions. They are provided "as is" for use by the general public and are designed for use in a Geographic Information System or similar
+          mapping system.
+          Purpose: Providing access to boundary file metadata on the Census Bureau's Internet site
+          Supplemental Information: The cartographic boundary files are available in three file formats: 
+          ARC/INFO Export (.e00) format 
+          Arcview Shapefile format 
+          ARC/INFO Generate (ASCII) format
+
+     Time Period of Content: 
+
+          Currentness Reference: publication date
+
+     Status: 
+
+          Progress: In Work
+          Maintenance and Update Frequency: As needed
+
+     Spatial Domain: 
+
+          Bounding Coordinates: 
+
+               West Bounding Coordinate: 172.46087
+               East Bounding Coordinate: -65.2215271
+               North Bounding Coordinate: 71.34294128
+               South Bounding Coordinate: 17.88511467
+
+          Data Set G-Polygon: 
+
+               Data Set G-Polygon Outer G-Ring: 
+               Data Set G-Polygon Exclusion G-Ring: 
+
+     Keywords: 
+
+          Theme: 
+
+               Theme Keyword Thesaurus: Boundary Files
+               Theme Keyword: Boundary Files
+               Theme Keyword: Spatial Metadata
+               Theme Keyword: US Bureau of the Census
+
+     Access Constraints: None
+     Use Constraints: None
+     Point of Contact: 
+
+          Contact Information: 
+
+               Contact Person Primary: 
+
+                    Contact Person: Department of Commerce, US Bureau of the Census, Geography Division
+
+     Browse Graphic: 
+
+          Browse Graphic File Name: Boundary_File_Metadata_Graphic
+          Browse Graphic File Description: US_Map
+          Browse Graphic File Type: JPEG
+
+     Data Set Credit: Department of Commerce, US Bureau of the Census, Geography Division
+     Security Information: 
+
+          Security Classification System: None
+          Security Classification: Unclassified
+          Security Handling Description: Unclassified
+
+     Native Data Set Environment: TIGER database converted to ARC/INFO coverages, Arcview Shapefiles, and ARC/INFO generate files (ASCII)
+     Cross Reference: 
+
+          Citation Information: 
+
+               Originator: U.S. Department of Commerce, Bureau of the Census, Geography Division
+               Publication Date: 19990119
+               Title: Boundary File Web Site Metadata
+               Publication Information: 
+
+                    Publication Place: Washington, D.C.
+                    Publisher: U.S. Department of Commerce, Bureau of the Census, Geography Division
+
+               Online Linkage: http://www.census.gov/geo/www/cob/index.html
+
+
+
+Data Quality Information
+
+
+     Attribute Accuracy: 
+
+          Attribute Accuracy Report: Accurate against Federal Information Processing Standards (FIPS), FIPS Publication 6-4, and FIPS-55 at the 100%
+          level for the codes and base names. The remaining attribute information has been examined but has not been fully tested for accuracy.
+
+     Logical Consistency Report: The feature network of lines (as represented by Record Types 1 and 2) is complete for census purposes. Spatial objects in
+     TIGER/Line belong to the "Geometry and Topology" (GT) class objects in the "Spatial DataTransfer Standard" (SDTS) FIPS Publication 173 and are
+     topologically valid. Node/geometry and topology (GT)-polygon/chain relationships are collected or generated to satisfy topological edit requirements. These
+     requirements include: 
+     * Complete chains must begin and end at nodes. 
+     * Complete chains must connect to each other at nodes. 
+     * Complete chains do not extend through nodes. 
+     * Left and right GT-polygons are defined for each complete chain element and are 
+     consistent throughout the extract process. 
+     * The chains representing the limits of the files are free of gaps. 
+     The Census Bureau performed automated tests to ensure logical consistency and limits of files. All polygons are tested for closure. The Census Bureau uses its
+     internally developed Geographic Update System to enhance and modify spatial and attribute data in the Census TIGER data base. Standard geographic
+     codes, such as FIPS codes for states, counties, performed spatial data tests for logical consistency of the codes during the compilation of the original Census
+     TIGER data files. Most of the Codes themselves were provided to the Census Bureau by the USGS, the agency responsible for maintaining FIPS 55. Feature
+     attribute information has been examined but has not been fully tested for consistency.
+     Completeness Report: Data completeness reflects the contents of the Census TIGER data base as of January 1, 1990. After the boundary files were
+     extracted, they underwent generalization in the Arc/Info environment. The generalization factor is not known for the boundaries.
+     Positional Accuracy: 
+
+          Horizontal Positional Accuracy: 
+
+               Horizontal Positional Accuracy Report: The information present in these files provided for the purposes of statistical analysis and census
+               operations only. Coordinates in the TIGER/Line files have six implied decimal places, but the positional accuracy of these coordinates is not as
+               great as the six decimal places suggest. The positional accuracy varies with the source material used, but generally the information is no better
+               than the established national map Accuracy standards for 1:100,000-scale maps from the U.S. Geological Survey (USGS); thus it is NOT
+               suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly
+               accurate measurements of the earth's surface. The USGS 1;100,000-scale maps met national map accuracy standards and use coordinates
+               defined by the North American Datum, 1983. For the contiguous 48 States, the cartographic fidelity of most of the 1997 Tiger/Line files, in
+               areas outside the 1980 census Geographic Base File/Dual Independent map Encoding (GBF/DIME) file coverage and selected other large
+               metropolitan areas, compare favorable with the USGS 1:100,000-scale maps. The Census Bureau cannot specify the accuracy of features inside
+               of what was the 1980 GBF/DIME-File coverage or selected metropolitan areas. The Census Bureau added updates to the TIGER/Line files that
+               enumerators annotated on map sheets prepared from the Census TIGER data base as they attempted to traverse every street feature shown on
+               the 1990 census map sheets; the Bureau also made other corrections from updated map sheets supplied by local participants for Census Bureau
+               programs. The locational accuracy of these updates is of unknown quality. In addition to the Federal, State, and local resources, portions of the
+               files may contain information obtained in part from maps and other materials prepared by private companies. Despite the fact the TIGER/Line
+               data is not as high as the coordinate values imply, the six-decimal place precision is useful when producing maps. The precision allows features
+               that are next to each other on the ground to be placed in the correct position, on the map, relative to each other, without overlap.
+
+     Lineage: 
+
+          Source Information: 
+
+               Source Citation: 
+
+                    Citation Information: 
+
+                         Originator: U.S. Department of Commerce, Bureau of the Census, Geography Division
+                         Publication Date: 19990119
+                         Title: Boundary File Web Site Metadata
+                         Publication Information: 
+
+                              Publication Place: Washington, D.C.
+                              Publisher: U.S. Department of Commerce, Bureau of the Census, Geography Division
+
+                         Online Linkage: http://www.census.gov/geo/www/cob/index.html
+
+               Source Scale Denominator: 5000000
+               Type of Source Media: paper
+               Source Time Period of Content: 
+
+                    Time Period Information: 
+
+                         Single Date/Time: 
+
+                              Calendar Date: January 1, 1990
+
+               Source Citation Abbreviation: TIGER
+               Source Contribution: Selected geographic and cartographic information (line segments) from the Census TIGER data base.
+
+          Process Step: 
+
+               Process Description: The TIGER/Line files are extracted from the Census TIGER data base by county or statistical equivalent area using
+               software (TIGER DB routines) written by the Geography Division for efficient access.
+               Source Used Citation Abbreviation: TIGER
+               Process Date: 1990-1999
+               Source Produced Citation Abbreviation: TIGER
+               Process Contact: 
+
+                    Contact Information: 
+
+                         Contact Person Primary: 
+
+                              Contact Person: Department of Commerce, US Bureau of the Census, Geography Division
+
+
+
+Spatial Data Organization Information
+
+
+
+Spatial Reference Information
+
+
+     Horizontal Coordinate System Definition: 
+
+	Projected coordinate system name: NAD_1927_UTM_Zone_10N
+
+
+
+Distribution Information
+
+
+     Distributor: 
+
+          Contact Information: 
+
+               Contact Person Primary: 
+
+                    Contact Person: Department of Commerce, US Bureau of the Census, Geography Division
+
+
+
+Metadata Reference Information
+
+
+     Metadata Date: 01-19-99
+     Metadata Contact: 
+
+          Contact Information: 
+
+               Contact Person Primary: 
+
+                    Contact Person: Department of Commerce, US Bureau of the Census, Geography Division
+
+     Metadata Standard Name: FGDC Content Standards for Digital Geospatial Metadata
+     Metadata Access Constraints: None
+     Metadata Use Constraints: None
+     Metadata Security Information: 
+
+          Metadata Security Classification System: Unclassified
+          Metadata Security Classification: Unclassified
+          Metadata Security Handling Description: None

@@ -1,0 +1,626 @@
+Metadata for Large-scale DLGs
+
+Digital line graph (DLG) data are digital representations of cartographic information. DLG's of map features are converted to digital form from maps and related sources. Large-scale DLG data are derived from USGS 1:20,000-, 1:24,000-, and 1:25,000-scale topographic quadrangle maps. Large-scale DLG's are sold in nine categories: (1) hypsography, (2) hydrography, (3) vegetative surface cover, (4) non-vegetative features, (5) boundaries, (6) survey control and markers, (7) transportation; (8) manmade features, and (9) Public Land Survey System. All DLG data distributed by the USGS are DLG - Level 3 (DLG-3), which means the data contain a full range of attribute codes, have full topological structuring, and have passed certain quality-control checks. This is a data-set level implementation of the Federal Geographic Data Committee's Content Standards for Digital Geospatial Metadata.
+
+Information about individual Large-scale DLG records can be obtained from the EROS Data Center. 
+
+
+
+Table of Contents
+
+Identification Information (includes abstract)
+Data Quality Information
+Spatial Data Organization Information
+Spatial Reference Information
+Entity and Attribute Information
+Distribution Information (includes ordering information)
+Metadata Reference Information
+
+
+
+
+Identification Information
+
+
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator:
+        U.S. Geological Survey or another mapping agency in
+        cooperation with USGS.
+      Publication_Date: Unknown
+      Title: 1:24,000-scale Digital Line Graphs
+      Publication_Information:
+        Publication_Place: Reston, Virginia
+        Publisher: U.S. Geological Survey
+  Description:
+    Abstract:
+      Digital line graph (DLG) data are digital representations
+      of cartographic information. DLG's of map features are
+      converted to digital form from maps and related sources.
+      Large-scale DLG data are derived from USGS 1: 20,000-, 1:
+      24,000-, and 1: 25,000-scale 7.5-minute topographic
+      quadrangle maps. Large-scale DLG data are available in
+      nine categories: (1) hypsography, (2) hydrography, (3)
+      vegetative surface cover, (4) non-vegetative features,
+      (5) boundaries, (6) survey control and markers, (7)
+      transportation, (8) manmade features, (9) Public Land
+      Survey System. All DLG data distributed by the USGS are
+      DLG - Level 3 (DLG-3), which means the data contain a
+      full range of attribute codes, have full topological
+      structuring, and have passed certain quality-control
+      checks.
+    Purpose:
+      DLG's depict information about geographic features on or near
+      the surface of the Earth, terrain, and political and administrative
+      units.  These data were collected as part of the National Mapping
+      Program.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 19800705
+        Ending_Date: present
+    Currentness_Reference: publication date
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: Irregular
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -124.7333
+      East_Bounding_Coordinate: -067.9500
+      North_Bounding_Coordinate: 49.3833
+      South_Bounding_Coordinate: 24.5333
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: None.
+      Theme_Keyword: digital line graph
+      Theme_Keyword: DLG
+      Theme_Keyword: hydrography
+      Theme_Keyword: transportation
+      Theme_Keyword: boundaries
+      Theme_Keyword: U.S. Public Land Survey System
+      Theme_Keyword: hypsography
+      Theme_Keyword: manmade features
+      Theme_Keyword: survey control and markers
+      Theme_Keyword: non-vegetative features
+      Theme_Keyword: vegetative surface cover
+    Place:
+      Place_Keyword_Thesaurus:
+        U.S. Department of Commerce, 1977, Countries,  dependencies,
+        areas of special sovereignty, and their principal administrative divisions
+        (Federal Information Processing Standard 10-3):Washington, D.C.,
+        National Institute of Standards and Technology.
+      Place_Keyword: US
+      Place_Keyword: CA
+      Place_Keyword: MX
+      Place_Keyword_Thesaurus:
+        U.S. Department of Commerce, 1987, Codes for the identification
+        of the States, the District of Columbia  and the outlying areas of
+        The United States, and associated areas
+        (Federal Information Processing Standard 5-2):Washington ,D. C.,
+        National Institute of Standards and Technology.
+      Place_Keyword: FIPS codes for states covered
+  Access_Constraints: None
+  Use_Constraints:
+    None.  Acknowledgement of the U.S. Geological Survey would
+    be appreciated in products derived from these data.
+
+
+Data Quality Information
+
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report: Unknown
+  Logical_Consistency_Report:
+    Topological requirements include: lines must begin and end at
+    nodes, lines must connect to each other at nodes, lines do not
+    extend through nodes, left and right areas are defined for each
+    line element and are consistent throughout the file, and the
+    lines representing the limits of the file (neatline) are free of
+    gaps.
+
+    The tests of logical consistency were performed by the USGS
+    PROSYS program.  The neatline was generated by connecting the
+    four corners of the digital file, as established during initialization
+    of the digital file.  All data outside the enclosed region were ignored
+    and all data crossing these geographically straight lines were clipped at
+    the neatline. Data within a specified tolerance of the neatline
+    were snapped to the neatline.  Neatline straightening aligned the
+    digitized edges of the digital data with the generated neatline,
+    that is, with the longitude/latitude lines in geographic
+    coordinates.  All internal areas were tested for closure using
+    PROSYS.
+  Completeness_Report:
+    For Digital Revision Status = Not revised
+    Data completeness reflects the content of the source quadrangle.
+    Features may have been eliminated or generalized on the source
+    graphic, due to scale and legibility constraints.
+
+    For Digital Revision Status = Limited Update
+    This file has undergone limited update digital revision.  The
+    file contains only (1) those features that are photoidentifiable
+    on monoscopic source, supplemented with limited ancillary source,
+    and (2) those features, present on the original source quadrangle,
+    that can not be reliably photoidentified but that are not
+    considered particularly prone to change.
+
+    For Digital Revision Status = Standard Update
+    This file has undergone standard update digital revision. The
+    data completeness of this file meets NMD standards for feature
+    content.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: For Digital Revision Status = Not revised:
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report:
+        For Hypsography, Hydrography and Survey Control and
+        Markers Only:
+        For Digital Revision Status = Not revised:
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            U.S. Geological Survey or another mapping agency in
+            cooperation with USGS.
+          Publication_Date: Unknown
+          Title:
+            The Topographic Map Names Data Base designation for
+            the source quadrangle.
+          Geospatial_Data_Presentation_Form: map
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 24000
+      Type_of_Source_Media: stable-base material
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: Unknown
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: MAP1
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            U.S. Geological Survey or another mapping agency in
+            cooperation with USGS.
+          Publication_Date: Unknown
+          Title:
+            The Topographic Map Names Data Base designation
+            for the DOQ
+          Geospatial_Data_Presentation_Form: remote-sensing image
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 12000
+      Type_of_Source_Media: magnetic tape
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: Unknown
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: DOQ1
+      Source_Contribution:
+        Provides locational and attribute information for
+        photoidentifiable features during revision.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            U.S. Geological Survey or another mapping agency in
+            cooperation with USGS.
+          Publication_Date: Unknown
+          Title:
+            The Topographic Map Names Data Base designation
+            for the DOQ
+          Geospatial_Data_Presentation_Form: remote-sensing image
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 12000
+      Type_of_Source_Media: magnetic tape
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: Unknown
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: DOQ2
+      Source_Contribution:
+        Provides locational and attribute information for
+        photoidentifiable features during revision.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            U.S. Geological Survey or another mapping agency in
+            cooperation with USGS.
+          Publication_Date: Unknown
+          Title:
+            The Topographic Map Names Data Base designation
+            for the DOQ
+          Geospatial_Data_Presentation_Form: remote-sensing image
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 12000
+      Type_of_Source_Media: magnetic tape
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: Unknown
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: DOQ3
+      Source_Contribution:
+        Provides locational and attribute information for
+        photoidentifiable features during revision.
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator:
+            U.S. Geological Survey or another mapping agency in
+            cooperation with USGS.
+          Publication_Date: Unknown
+          Title:
+            The Topographic Map Names Data Base designation
+            for the DOQ
+          Geospatial_Data_Presentation_Form: remote-sensing image
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 12000
+      Type_of_Source_Media: magnetic tape
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: Unknown
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: DOQ4
+      Source_Contribution:
+        Provides locational and attribute information for
+        photoidentifiable features during revision.
+    Process_Step:
+      Process_Description:
+        For Digital Revision Status = Not digitally revised:
+        This Digital Line Graph was digitized from the USGS source
+        quadrangle, by either the National Mapping Division, one of
+        their cooperators, or one of their contractors.  The digital data
+        were produced by one of the following methods:
+
+        - scanning a stable-based copy of the graphic materials.
+        The scanning process captured the digital data at a
+        scanning resolution of at least 0.001 inches;  the
+        resulting raster data were vectorized and then attributed
+        on an interactive editing station.
+
+        - scanning the paper map.  The scanning process captured
+        the digital data at a scanning resolution of at least
+        0.001 inches;  the resulting raster data were vectorized
+        and then attributed on an interactive editing station.
+
+        - scanning a stable-based copy of the graphic materials.
+        The resulting raster data were then manually digitized
+        and attributed on an interactive editing station.  The
+        resolution of the digital data is at least 0.001 inches.
+
+        - scanning the paper map.  The resulting raster data were
+        then manually digitized and attributed on an interactive
+        editing station.  The resolution of the digital data is
+        at least 0.001 inches.
+
+        - manually digitizing from a stable-based copy of the
+        graphic material using a digitizing table to capture the
+        digital data at a resolution of at least 0.001 inches;
+        attribution was performed either as the data were
+        digitized, or on an interactive edit station after the
+        digitizing was completed.
+
+        - manually digitizing from the paper map using a digitizing
+        table to capture the digital data at a resolution of at
+        least 0.001 inches;  attribution was performed either as
+        the data were digitized, or on an interactive edit
+        station after the digitizing was completed.
+
+        The determination of the DLG production method was based on
+        various criteria, including feature density, feature
+        symbology, and availability of production systems.  Four
+        control points corresponding to the four corners of the
+        quadrangle were used for registration during data
+        collection.  An eight parameter projective transformation
+        was performed on the coordinates used in the data collection
+        and editing systems to register the digital data to the
+        internal coordinates used in PROSYS, and a four parameter linear
+        transformation was performed from the PROSYS internal coordinates
+        to Universal Transverse Mercator (UTM) grid coordinates.  The DLG
+        data were checked for position by one or more of the following
+        processes:
+        - comparing plots of the digital data to the graphic source.
+        - comparing the digital data to the digital raster scan.
+
+        DLG data classification was checked by at least one of the
+        following processes.
+        - comparing plots of the digital data to the graphic source
+        - comparing the digital data to the digital raster scan.
+      Source_Used_Citation_Abbreviation: MAP1
+      Process_Date: Unknown
+    Process_Step:
+      Process_Description:
+        For Digital Revision Status = Limited Update
+        This file has undergone limited update digital revision.
+        Limited update revision uses monoscopic imagery and limited
+        ancillary source, with no field verification.
+      Source_Used_Citation_Abbreviation: DOQ1, DOQ2, DOQ3, DOQ4
+      Process_Date: Unknown
+    Process_Step:
+      Process_Description:
+        For Digital Revision Status = Standard Update
+        This file has undergone standard update digital revision.
+        Standard update revision uses stereoscopic imagery as
+        needed, in addition to monoscopic imagery, with field
+        verification.
+      Source_Used_Citation_Abbreviation: DOQ1, DOQ2, DOQ3, DOQ4
+      Process_Date: Unknown
+
+
+Spatial Data Organization Information
+
+
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference:
+    For Public Land Survey System:
+    U.S. Department of the Interior, Bureau of Land Management:
+    U.S. Public Land Survey System
+
+    For Boundaries:
+    U.S. Department of Commerce, 1977, Countries, dependencies, areas
+    of special sovereignty, and their principal administrative divisions.
+    (Federal Information Processing Standard 10-3): Washington,D.C.,
+    National Institute of Standards and Technology.
+
+    U.S. Department of Commerce, 1987, Codes for the identification
+    of the States, the District of Columbia  and the outlying areas of
+    The United States, and associated areas
+    (Federal Information Processing Standard 5-2): Washington, D. C.,
+    National Institute of Standards and Technology.
+
+    U.S. Department of Commerce,1990, Counties and equivalent
+    entities of The United States, its possessions, and associated areas
+    (Federal  Information Processing Standard 6-4):  Washington, D.C.
+    National Institute of Standards and Technology.
+
+    For Survey Control and Markers:
+    U.S. Department of Commerce, 1987, Codes for the identification
+    of the States, the District of Columbia  and the outlying areas of
+    The United States, and associated areas
+    (Federal Information Processing Standard 5-2): Washington, D. C.,
+    National Institute of Standards and Technology.
+
+    U.S. Department of Commerce,1990, Counties and equivalent
+    entities of The United States, its possessions, and associated areas
+    (Federal  Information Processing Standard 6-4):  Washington, D.C.
+    National Institute of Standards and Technology.
+  Direct_Spatial_Reference_Method: Vector
+
+
+Spatial Reference Information
+
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 10-19
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: .9996
+            Longitude_of_Central_Meridian: -123 00 00
+            Latitude_of_Projection_Origin: 0.0
+            False_Easting: 500000
+            False_Northing: 0.0
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.61 [0.635 for 1:25,000]
+          Ordinate_Resolution: 0.61 [0.635 for 1:25,000]
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum 1927
+      Ellipsoid_Name: Clark 1866
+      Semi-major_Axis: 6378206.4
+      Denominator_of_Flattening_Ratio: 294.98
+  Vertical_Coordinate_System_Definition:
+    Altitude_System_Definition:
+      Altitude_Datum_Name: National Geodetic Vertical Datum of 1929
+      Altitude_Resolution: 1
+      Altitude_Distance_Units: feet or meters
+      Altitude_Encoding_Method: attribute values
+    Depth_System_Definition:
+      Depth_Datum_Name: Mean lower low water
+      Depth_Resolution: 1
+      Depth_Distance_Units: meters or feet
+      Depth_Encoding_Method: attribute values
+
+
+Entity and Attribute Information
+
+
+Entity_and_Attribute_Information:
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+      DLG3 attribute codes are used to describe the physical and cultural
+      characteristics of DLG node, line, and area elements. Attribute codes
+      are used to reduce redundant information, provide enough reference
+      information to support integration with larger data base, and describe
+      the relationships between cartographic elements. Each DLG element
+      has one or more attribute codes composed of a three digit major code
+      and a four-digit minor code. For example, with the 1: 24,000-scale DLG
+      data, the line attribute code 050 0412 has a major code (050), meaning
+      hydrography, with a minor code (0412) meaning stream.
+    Entity_and_Attribute_Detail_Citation:
+      U.S. Department of the Interior, U.S. Geological Survey, 1987
+      Digital Line Graphs from 1:24,000-Scale Maps--Data Users Guide 1;
+      Reston, Virginia
+
+      A hypertext extract is available at:
+      URL: http://edcwww.cr.usgs.gov/glis/hyper/guide/usgs_dlg
+ 
+      Softcopies in ASCII, WordPerfect, and PostScript format are available at:
+      URL: ftp://mapping.usgs.gov/pub/ti/DLG/
+
+      U.S.Department of the Interior, U.S.Geological Survey, 1990,
+      Standards for Digital Line Graphs, Reston, VA, 1994
+
+      Softcopies in ASCII, WordPerfect, and PostScript format are available at:
+      URL: ftp://mapping.usgs.gov/pub/ti/DLG/
+
+
+Distribution Information
+
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Earth Science Information Center, U.S.Geological Survey
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 507 National Center
+        City: Reston
+        State_or_Province: Virginia
+        Postal_Code: 20192
+      Contact_Voice_Telephone: 1-888-ASK-USGS
+      Hours_of_Service: 0800-1600
+      Contact_Instructions:
+        In addition to the address above there are  other ESIC offices
+        throughout the country.  A full list of these offices is at:
+
+        URL:http://mapping.usgs.gov/esic/esic_index.html
+
+  Resource_Description: 1:24,000-scale digital line graphs
+  Distribution_Liability:
+    Although these data have been processed successfully on a computer system at the
+    U.S. Geological Survey, no warranty expressed or implied is made by the USGS
+    regarding the utility of the data on any other system, nor shall the act of
+    distribution constitute any such warranty. The Geological Survey will warrant the
+    delivery of this product in computer-readable format, and will offer appropriate
+    adjustment of credit when the product is determined unreadable by correctly adjusted
+    computer input peripherals, or when the physical medium is delivered in damaged
+    condition.  Requests for adjustment of credit must be made within 90 day from the date
+    of this shipment from the ordering site.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: SDTS
+        Format_Version_Date: 199207
+        Format_Specification: Topological Vector Profile
+      Digital_Transfer_Option:
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: URL:  http://edcwww.cr.usgs.gov/doc/edchome/ndcdb/dlg_large/states.html
+        Online_Option:
+          Computer_Contact_Information:
+            Network_Address:
+              Network_Resource_Name: URL:  ftp://edcftp.cr.usgs.gov/pub/data/DLG_LARGE/
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+          Compatibility_Information:
+            This CD-ROM can be used with all computer operating
+            systems that support CD-ROM as a logical storage
+            device.  All text files on the disc are in ASCII
+            format.  Data files are in ASCII or binary format.
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: DLG
+        Format_Version_Date: 198805
+        Format_Specification: Optional
+      Digital_Transfer_Option:
+        Offline_Option:
+          Offline_Media: CD-ROM
+          Recording_Format: ISO 9660
+          Compatibility_Information:
+            This CD-ROM can be used with all computer operating
+            systems that support CD-ROM as a logical storage
+            device.  All text files on the disc are in ASCII
+            format.  Data files are in ASCII or binary format.
+        Offline_Option:
+          Offline_Media: Cartridge
+          Recording_Capacity:
+            Recording_Density: 3480
+            Recording_Density_Units: megabytes
+          Recording_Format:
+            ASCII; available unlabelled or with ANSI- standard labels; available
+            block sizes are multiples of 144 characters ranging from 8064 to 32720
+            characters.
+        Offline_Option:
+          Offline_Media: Cassette
+          Recording_Capacity:
+            Recording_Density: 8-mm High (4.5Gb)
+            Recording_Density_Units: gigabytes
+          Recording_Format:
+            ASCII; available unlabelled or with ANSI- standard labels; available
+            block sizes are multiples of 144 characters ranging from 8064 to 32720
+            characters.
+        Offline_Option:
+          Offline_Media: Cassette
+          Recording_Capacity:
+            Recording_Density: 8-mm Low (2.3Gb)
+            Recording_Density_Units: gigabytes
+          Recording_Format:
+            ASCII; available unlabelled or with ANSI- standard labels; available
+            block sizes are multiples of 144 characters ranging from 8064 to 32720
+            characters.
+    Fees:
+      The online copy of the data set (when available electronically) may
+      be accessed without charge. For cartridge, cassette, and CD-ROM the
+      costs are available at:
+
+      URL: http://edcwww.cr.usgs.gov/glis/hyper/order_info/prices#DLG_LARGE
+
+    Ordering_Instructions:
+      All nonstandard quadrangles with neatlines that extend beyond the
+      standard unit size to accommodate overedge boundaries are collected
+      as multiples of the standard unit size. Data covering a 7.5- by 8.5-
+      minute quadrangle area would be sold as two 7.5-minute units.
+      Each 7.5-minute unit is distributed as 1 7.5-minute cell,  except in
+      high-density areas, where the 7.5-minute cells may be divided into 2 or
+      more cells.
+      The transportation category of data includes major transportation systems
+      collected in three separate overlays labeled: (1) Roads and Trails, (2) Railroads,
+      and (3) Pipelines, Transmission Lines, and Miscellaneous Transportation Features.
+      Although collected separately, the three files are distributed as a single unit.
+      Orders for the transportation category for a given area will include all
+      three files.
+
+      Dataset searching and ordering capabilities are available through the
+      Global Land Information System (GLIS) at:
+
+      URL: http://edcwww.cr.usgs.gov/webglis
+
+
+Metadata Reference Information
+
+
+Metadata_Reference_Information:
+  Metadata_Date: 199001
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: U.S. Geological Survey
+      Contact_Address:
+        Address_Type: mailing address
+        Address: 508  National Center
+        City: Reston
+        State_or_Province: Virginia
+        Postal_Code: 20192
+      Contact_Voice_Telephone: 1 703 648 4543
+  Metadata_Standard_Name: Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: 19940608
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
